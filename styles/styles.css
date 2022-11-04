@@ -1,0 +1,130 @@
+*{
+    background-color: black;
+    color: white;
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    padding-top: 5px;
+}
+
+.main-text{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    padding-right: 300px;
+    font-size: x-large;
+    font-weight: 900;
+    padding-bottom: 30px;
+    padding-top: 0px;
+}
+
+.navigationBar{
+    background-color: grey;
+    border-radius: 50px;
+    width: 500px;
+    height: 10px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2;
+    font-weight: 100;
+}
+
+
+.icons{
+    margin-left: 400px;
+    display: flex;
+    flex-direction: row;
+    border-color: white;
+    align-items: center;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.pic{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: grey;
+    margin: 5px;
+}
+
+.profile{
+    width: 30px;
+    height: 35px;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.middle-section{
+    display: flex;
+    flex-direction: row;
+}
+
+.left-part{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 30;
+    padding-top: 5px;
+    justify-content: center;
+    width: 430px;
+}
+
+.menu{
+    padding-bottom: 10px;
+}
+
+.menu-opt{
+    padding-bottom: 25px;
+}
+
+.opt{
+    width: 25px;
+    height: 25px;
+    padding-right: 10px;
+    border-radius: 50%;
+    padding-top: 20px; 
+}
+
+.image{
+    width: 25px;
+    height: 25px;
+    padding-right: 10px;
+    border-radius: 50%;
+}
+
+.middle-part{
+    display: flex;
+    flex-direction: column;
+    width: 515px;
+}
+
+.part-one{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    background-color: gray;
+}
+
+.onet{
+    width: 170px;
+    font-size: 45;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 40px;
+}
