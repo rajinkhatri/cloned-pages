@@ -1,5 +1,5 @@
 *{
-    background-color: black;
+    background-color: rgb(19, 18, 18);
     color: white;
 }
 
@@ -7,6 +7,7 @@
     display: flex;
     flex-direction: row;
     padding-top: 5px;
+    background-color: rgb(21, 19, 19);
 }
 
 .main-text{
@@ -58,9 +59,9 @@
 }
 
 .profile{
-    width: 30px;
+    width: 40px;
     height: 35px;
-    border-radius: 50%;
+    border-radius: 15px;
     padding: 5px;
 }
 
@@ -127,4 +128,129 @@
     padding-top: 25px;
     padding-bottom: 25px;
     padding-left: 40px;
+}
+
+.part-two{
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+    background-color: grey;
+    padding-bottom: 0px;
+    border-radius: 25px;
+    height: 50px;
+    width: 500px;
+}
+
+.navpfp{
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    margin-bottom: 0px;
+    padding-top: 5px;
+    background-color: grey;
+    padding-left: 10px;
+}
+.navtext{
+    background-color: grey;
+    font-size: 32;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 50%;
+    height: 50px;
+    padding-top: 15px;
+    padding-left: 10px;
+    border: 10px;
+    border-color: wheat;
+}
+
+.activity{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+}
+
+.actopt{
+    font-size: 32;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.actopt1{
+    font-size: 32;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 90px;
+    padding-left: 90px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+}
+
+.quote{
+    font-size: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+#author{
+    padding-top: 30px;
+    font-size: x-large;
+}
+
+#extension{
+    padding-top: 30px;
+    color: skyblue;
+    font-size: 25;
+}
+
+.right-part{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+.right-options{
+    display: flex;
+    flex-direction: row;
+}
+
+.rone{
+    font-size: large;
+    font-weight: 900;
+    padding-right: 175px;
+    margin-left: 200px;
+}
+
+.rimg{
+    padding: 10px;
+    height: 10px;
+    width: 10px;
+    padding-top: 0px;
+}
+
+.right-button{
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 150px;
+    border-radius: 25px;
+}
+
+.rightbutton, button{
+    padding-left: 35px;
+    height: 50px;
+    background-color: grey;
+    border: 0px;
+    font-weight: 700;
+    font-size: 25;
 }
